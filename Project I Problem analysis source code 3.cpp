@@ -47,3 +47,18 @@ int main() {
       }
   return 0;
 }*/
+//we can also do this one like this with out using cmath
+/*#include <iostream;
+using namespace std;
+cout<<"side1"<<'\t'<<"side2"<<'\t'<<"hypotnenuse"<<endl;
+      for(int i=1;i<=100;i++){
+        for(int j=1;j<=100;j++){
+          for(int k=1;k<=100;k++){
+            if(i*i+j*j==k*k){
+              cout<<" "<<i<<'\t'<<" "<<j<<'\t'<<" "<<k<<endl;
+            }
+          }
+        }
+      }
+  return 0;
+}*/
